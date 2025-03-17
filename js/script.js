@@ -12,3 +12,7 @@ if (humanage <= 18){
 if (humanage >= 65){
     finalPrice = kmprice * 0.2;
 }
+
+//Final price
+finalPrice = finalPrice.toFixed(2);
+console.log("L'importo da pagare è di" + finalPrice + "€");
