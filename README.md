@@ -15,16 +15,16 @@ Buon lavoro!
 
 Pensiero logico:
 
-1.0 Chiedere all'utente quanti km vuole percorrere;
-    1.1 Comunicare all'utente che i prezzi attuali sono di 0.21€ al km;
-2.0 Chiedere all'utente l'età;
+1.0 Chiedere all'utente quanti km vuole percorrere
+    1.1 Comunicare all'utente che i prezzi attuali sono di 0.21€ al km
+2.0 Chiedere all'utente l'età
     2.1 IF humanage <= 18
-        THEN 20% Discount;
+        THEN 20% Discount
     2.2 IF humanage >= 65
-        THEN 40% Discount;
-3.0 Comunicare al cliente l'importo finale da pagare;
-    3.1 IF ticket == paid;
-        THEN ticket == give;
+        THEN 40% Discount
+3.0 Comunicare al cliente l'importo finale da pagare
+    3.1 IF ticket == paid
+        THEN ticket == give
 
 
 
