@@ -5,14 +5,18 @@ let kmprice = kmlenght * 0.21;
 let finalPrice = kmprice;
 
 //Age check
-if (humanage <= 18){
+if (humanage < 18){
     finalPrice = kmprice * 0.8;
+    message = 'Hai diritto ad uno sconto del 20% sul prezzo finale!';
+    console.log(message);
 }
 
-if (humanage >= 65){
+if (humanage > 65){
     finalPrice = kmprice * 0.2;
+    message = 'Hai diritto ad uno sconto del 40% sul prezzo finale!';
+    console.log(message);
 }
 
 //Final price
 finalPrice = finalPrice.toFixed(2);
-console.log("L'importo da pagare è di" + finalPrice + "€");
+console.log('Il prezzo del Vostro biglietto è di ${finalPrice.tofixed(2)}');
