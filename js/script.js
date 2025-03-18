@@ -19,4 +19,5 @@ if (humanage > 65){
 
 //Final price
 finalPrice = finalPrice.toFixed(2);
-console.log('Il prezzo del Vostro biglietto è di ${finalPrice.tofixed(2)}');
+message = 'Il tuo prezzo finale è in stampa!';
+console.log(finalPrice);
